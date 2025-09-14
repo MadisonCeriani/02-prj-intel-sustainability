@@ -1,1 +1,13 @@
 /* Add your CSS here */
+
+/* Make all images inside the timeline cards the same width and height */
+/* Use object-fit: contain so the whole image is visible (not cropped) */
+section div img {
+  width: 300px;      /* Set a reasonable width for card images */
+  height: 200px;     /* Set a reasonable height for card images */
+  object-fit: contain; /* Show the whole image, even if there are borders */
+  display: block;      /* Remove extra space below images */
+  margin: 0 auto;      /* Center the images */
+  background: #fff;    /* Optional: white background for images with transparency */
+  border: 1px solid #ccc; /* Optional: light border for visibility */
+}
