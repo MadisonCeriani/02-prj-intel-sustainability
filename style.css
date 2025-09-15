@@ -21,7 +21,7 @@ section div img {
   display: block;       /* Remove extra space below images */
   margin: 0 auto;       /* Center the images */
   background: #fffcfc;     /* White background for images with transparency */
-  border: 1px solid #ccc; /* Light border for visibility */
+  border: 1px solid #c1c0c0; /* Light border for visibility */
 }
 
 /* Display timeline cards in a horizontal scroll on large screens */
