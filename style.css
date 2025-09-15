@@ -20,7 +20,7 @@ section div img {
   object-fit: contain;  /* Show the whole image, even if there are borders */
   display: block;       /* Remove extra space below images */
   margin: 0 auto;       /* Center the images */
-  background: #fff;     /* White background for images with transparency */
+  background: #fffcfc;     /* White background for images with transparency */
   border: 1px solid #ccc; /* Light border for visibility */
 }
 
